@@ -1,4 +1,3 @@
 Test input file for Project 2.
 Add some text to this file.
 --------------------------------
-This is a test
