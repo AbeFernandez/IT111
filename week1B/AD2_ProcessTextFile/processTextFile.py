@@ -4,10 +4,10 @@ loopControl = True
 while loopControl:
     print()
     print("                Menu")
-    print("PRESS A - Append to 'Project2Update.txt' ")
-    print("PRESS C - Saves a copy of the file with a different file name ")
-    print("PRESS D - Delete the original file ")
-    print("PRESS E - For 'EXIT' ")
+    print("ENTER A - Append to 'Project2Update.txt' ")
+    print("ENTER C - Saves a copy of the file with a different file name ")
+    print("ENTER D - Delete the original file ")
+    print("ENTER E - For 'EXIT' ")
     print()
 
     userSelection = input("Choose from the menu: ")
@@ -23,7 +23,7 @@ while loopControl:
         myFile.close()
         print("Your text have been added to 'Project2Update.txt'")
 
-    if userSelection == "C" or userSelection == "c":
+    elif userSelection == "C" or userSelection == "c":
         # Saves a copy of the file with a different file name
         userFileCopy = input("Enter the name of your file copy: ")
         userFileCopy = userFileCopy + ".txt"
@@ -39,7 +39,7 @@ while loopControl:
         myFile.close()
         print("-------Once you exit, you will be able to see this file.-------")
 
-    if userSelection == "D" or userSelection == "d":
+    elif userSelection == "D" or userSelection == "d":
         # Deletes the original file
         if os.path.exists("Project2Update.txt"):
             os.remove("Project2Update.txt")
@@ -47,7 +47,7 @@ while loopControl:
         else:
             print("File don't exist!")
 
-    if userSelection == "E" or userSelection == "e":
+    elif userSelection == "E" or userSelection == "e":
         loopControl = False
 
 
