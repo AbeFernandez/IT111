@@ -2,3 +2,4 @@ Test input file for Project 2.
 Add some text to this file.
 --------------------------------
 Hello World!
+Welcome!

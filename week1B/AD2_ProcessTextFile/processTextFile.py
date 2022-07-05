@@ -49,5 +49,3 @@ while loopControl:
 
     elif userSelection == "E" or userSelection == "e":
         loopControl = False
-
-
