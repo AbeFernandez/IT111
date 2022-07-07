@@ -1,0 +1,36 @@
+Set the turn number to 1
+
+# Let the user enter die roll values from a command line. This will allow for controlled
+test data. Eventually, we can convert the die roll to a pseudorandom number for game
+simulations.
+
+#Validate data entry by throwing an error for numerical input <2 or >12.
+
+Die roll is a number from 2 to 12
+
+If turn number = 1 and die roll = 2, 3, or 12, player loses
+
+If turn number = 1 and die roll = 7 or 11, player wins
+
+else if turn number = 1 and die roll not = 2, 3, 7, 11, or 12, point number = die roll and turn number += 1
+
+Print the turn number, the die roll and the result.
+
+# The section below will become a loop to extend the game. We will work on the loop next
+week. The loop functionality is not required for this week's assignment.
+
+Die roll is a new number from 2 to 12
+
+# Let the user enter die roll values from a command line. This will allow for controlled
+test data. Eventually, we can convert the die roll to a pseudorandom number for game
+simulations.
+
+#Validate data entry by throwing an error for numerical input <2 or >12.
+
+If turn number > 1 and die roll = 7 player loses
+
+If turn number > 1 and die roll = point number player wins
+
+Else turn number +=1
+
+Print the turn number, the die roll and the result.
