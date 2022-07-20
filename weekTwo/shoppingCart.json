@@ -1,0 +1,36 @@
+{
+    "product": [
+        {
+            "product id": 1,
+            "category": "Vase",
+            "name": "Frasier Textured Handcrafted Ceramic Vase",
+            "color": "Charcoal Grey",
+            "size": "Tall",
+            "price": 89.99
+        },
+        {
+            "product id": 2,
+            "category": "Pot",
+            "name": "Plat Pot",
+            "color": "Orange",
+            "size": "Small",
+            "price": 10.99
+        },
+        {
+            "product id": 3,
+            "category": "Pottery",
+            "name": "Red Vase",
+            "color": "Red",
+            "size": "Small",
+            "price": 20.99
+        },
+        {
+            "product id": 4,
+            "category": "Pottery",
+            "name": "Golden Vase",
+            "color": "Gold",
+            "size": "Large",
+            "price": 100.99
+        }
+    ]
+}
