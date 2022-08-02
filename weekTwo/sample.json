@@ -1,0 +1,12 @@
+{
+    "product": [
+        {
+            "product id": 1,
+            "category": "apple",
+            "name": "apple",
+            "color": "red",
+            "size": "small",
+            "price": 1.0
+        }
+    ]
+}

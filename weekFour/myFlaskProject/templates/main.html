@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/main.css') }}">
+    <title>MyProject</title>
+</head>
+<body>
+    
+    <div class="wrapper">     
+        <h1>My App</h1>
+        <form action="http://localhost:5000/result" method="post">
+            <label for="name">First Name:</label>
+            <input type="text" name="first-name"/>
+            <label for="name">Last Name:</label>
+            <input type="text" name="last-name"/>
+            <label for="name">Age:</label>
+            <input type="text" name="age"/>
+            <input type="submit" value="submit"/>
+            
+        </form>
+
+    </div>
+
+</body>
+</html>

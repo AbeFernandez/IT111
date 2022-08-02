@@ -16,7 +16,17 @@ def menu():
     name_input = input("Enter a name for this product: ")
     color_input = input("Enter a color for this product: ")
     size_input = input("Enter a size for this product: ")
-    price_input = float(input("Enter a price for this product: "))
+    goodnumber = False
+    while not goodnumber:
+        try:
+            price_input = float(input("Enter a price for this product: "))
+            if price_input > 0:
+                print("thats a good number, thanks")
+                goodnumber = True
+            else:
+                print("thats not a number greater than 0, try again please")
+        except ValueError:
+            print("That's not a number, try again please")
 
     return category_input, name_input, color_input, size_input, price_input
 
